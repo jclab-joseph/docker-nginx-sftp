@@ -30,7 +30,6 @@ fi
 # by the user
 echo "Fixing permissions for user ${USER} in /data/webroot"
 chown -Rv ${USER}:${USER} /data/webroot
-chmod -Rv 644 /data/webroot
 chown root.root /data/webroot
 chmod 777 /data/webroot
 
